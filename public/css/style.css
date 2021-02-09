@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-brand
+{
+     font-weight: bold;
+}
+.nav-item.active .nav-link
+{
+     color: white !important;
+}
+.nav-item .nav-link
+{
+     color: black !important;
+}
+.navbar-toggler
+{
+     border: none;
+}
+.navbar-toggler:focus
+{
+     outline: none;
+}
